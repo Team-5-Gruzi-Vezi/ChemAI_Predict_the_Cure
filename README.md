@@ -19,47 +19,14 @@
 ### **Метрика:**
 Задача оценивается по метрике RMSE (Root Mean Squared Error), усреднённый по трём таргетам:
 
-<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
-  <mi>s</mi>
-  <mi>c</mi>
-  <mi>o</mi>
-  <mi>r</mi>
-  <mi>e</mi>
-  <mo>=</mo>
-  <mfrac>
-    <mrow>
-      <mi>R</mi>
-      <mi>M</mi>
-      <mi>S</mi>
-      <mi>E</mi>
-      <mo stretchy="false">(</mo>
-      <mi>I</mi>
-      <mi>C</mi>
-      <mn>50</mn>
-      <mo stretchy="false">)</mo>
-      <mo>+</mo>
-      <mi>R</mi>
-      <mi>M</mi>
-      <mi>S</mi>
-      <mi>E</mi>
-      <mo stretchy="false">(</mo>
-      <mi>C</mi>
-      <mi>C</mi>
-      <mn>50</mn>
-      <mo stretchy="false">)</mo>
-      <mo>+</mo>
-      <mi>R</mi>
-      <mi>M</mi>
-      <mi>S</mi>
-      <mi>E</mi>
-      <mo stretchy="false">(</mo>
-      <mi>S</mi>
-      <mi>I</mi>
-      <mo stretchy="false">)</mo>
-    </mrow>
-    <mn>3</mn>
-  </mfrac>
-</math>
+$$
+\text{score} = \frac{\text{RMSE}(\text{IC50}) + \text{RMSE}(\text{CC50}) + \text{RMSE}(\text{SI})}{3}
+$$
+
+Где:
+- **RMSE(IC50)** — корень из среднеквадратичной ошибки для IC50
+- **RMSE(CC50)** — корень из среднеквадратичной ошибки для CC50  
+- **RMSE(SI)** — корень из среднеквадратичной ошибки для SI
 
 ### **Команда:** 
 Алла Мишра: allasr,\
