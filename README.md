@@ -48,10 +48,6 @@ $$
 ├── src/                        # Основной код пайплайна
 ├── submissions/                # Файлы для отправки на Kaggle
 └── working_folder/             # Черновики и эксперименты
-    ├── 5-gruzi-vezi-p1.ipynb
-    ├── sanday_eda.ipynb
-    ├── sunday_301.ipynb
-    └── Хакатон_.ipynb
 ```
 
 ## Инструкция по воспроизведению (Reproduction Steps)
