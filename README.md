@@ -40,13 +40,13 @@ $$
 ## Структура проекта
 ├── README.md
 ├── notebooks/
-│   └── 01_EDA.ipynb
+│   ├── 01_EDA.ipynb
 │   ├── 02_Model_Tuning.ipynb        # в разработке
 │   └── 03_Final_Submission.ipynb    # в разработке
 ├── requirements.txt
 ├── src/                        # Основной код пайплайна
 ├── submissions/                # Файлы для отправки на Kaggle
-└── working_folder/              # Черновики и эксперименты
+└── working_folder/             # Черновики и эксперименты
     ├── 5-gruzi-vezi-p1.ipynb
     ├── sanday_eda.ipynb
     ├── sunday_301.ipynb
