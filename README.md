@@ -41,7 +41,7 @@ $$
 ```
 ├── README.md
 ├── notebooks/
-│   ├── 01_EDA.ipynb
+│   ├── 01_EDA-baseline.ipynb
 │   ├── 02_Model_Tuning.ipynb        # в разработке
 │   └── 03_Final_Submission.ipynb    # в разработке
 ├── requirements.txt
