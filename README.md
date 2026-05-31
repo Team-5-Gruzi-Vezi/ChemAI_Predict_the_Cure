@@ -60,5 +60,4 @@ $$
 ## Соревнование
 [ChemAI: Predict the Cure на Kaggle](https://www.kaggle.com/competitions/chem-ai-predict-the-cure)
 
-### Результаты
-**Итоговый RMSE = 295.24**
+### Результаты: **Итоговый RMSE = 295.24**
