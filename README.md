@@ -55,7 +55,7 @@ $$
 ## Инструкция по воспроизведению (Reproduction Steps)
 1. Клонировать репозиторий
 2. Установить зависимости: `pip install -r requirements.txt`
-3. Запустить ноутбук: `jupyter notebook notebooks/01_EDA.ipynb`
+3. Запустить ноутбук из `RESULTS`
 
 ## Соревнование
 [ChemAI: Predict the Cure на Kaggle](https://www.kaggle.com/competitions/chem-ai-predict-the-cure)
