@@ -40,14 +40,16 @@ $$
 ## Структура проекта
 ```
 ├── README.md
-├── notebooks/
+├── РЕЗУЛЬТАТЫ/
 │   ├── 01_EDA-baseline.ipynb
-│   ├── 02_Model_Tuning.ipynb        # в разработке
-│   └── 03_Final_Submission.ipynb    # в разработке
+│   ├── 02_Создание_новых_признаков.ipynb
+│   ├── 03_Models_CC50_log.ipynb
+│   ├── 03_Models_IC50_log.ipynb
+│   ├── 03_Models_SI_log.ipynb
+│   └── 04_Итоговый_submission_q50_q90.ipynb
 ├── requirements.txt
-├── src/                        # Основной код пайплайна
 ├── submissions/                # Файлы для отправки на Kaggle
-└── working_folder/             # Черновики и эксперименты
+└── исследования/             # Черновики и эксперименты
 ```
 
 ## Инструкция по воспроизведению (Reproduction Steps)
@@ -59,4 +61,4 @@ $$
 [ChemAI: Predict the Cure на Kaggle](https://www.kaggle.com/competitions/chem-ai-predict-the-cure)
 
 ### Результаты
-<!-- Место в лидерборде и итоговый RMSE -->
+**Итоговый RMSE = 295.24**

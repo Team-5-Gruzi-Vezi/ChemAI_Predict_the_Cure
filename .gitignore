@@ -19,6 +19,8 @@ build/
 *.csv
 *.xlsx
 !submissions/*.csv  # но сохраняем submissions
+!submissions/*.csv
+!submissions/.gitkeep    # <-- добавляем это
 
 # IDE
 .vscode/
