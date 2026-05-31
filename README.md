@@ -71,7 +71,7 @@ $$
 └── Исследования/               # Черновики и эксперименты
 ```
 
-## Инструкция по воспроизведению (Reproduction Steps)
+## Инструкция по воспроизведению
 1. Клонировать репозиторий
 2. Установить зависимости: `pip install -r requirements.txt`
 3. Запустите ноутбук `results/04_Итоговый_submission_q50_q90.ipynb`
@@ -80,12 +80,12 @@ $$
 - **Kaggle Leaderboard Score**: 295.24
 - **Лучшие модели**: AutoGluon WeightedEnsemble (ансамбли CatBoost, LightGBM, ExtraTrees, RandomForest, NeuralNet)
 
-## Соревнование
-[ChemAI: Predict the Cure на Kaggle](https://www.kaggle.com/competitions/chem-ai-predict-the-cure)
-
 ## **Команда:**
 - Алла Мишра: mishra-alla / allasr (team leader)
 - Ирина Рыжова: yozhik94
 - Михаил Комаров: komarovma2017
 - Погожев Евгений: Setrence-ok
 - Мусина Гульназ: @Gulnazlabs
+
+## Соревнование
+[ChemAI: Predict the Cure на Kaggle](https://www.kaggle.com/competitions/chem-ai-predict-the-cure)
